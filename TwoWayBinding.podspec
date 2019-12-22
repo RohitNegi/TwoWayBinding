@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/RohitNegi/TwoWayBinding.git", :tag => "#{spec.version}" }
   spec.source_files = "TwoWayBinding/Binding/*.{swift,m,h}"
   spec.swift_version = "5.0"
-  spec.dependency 'PromiseKit'
+  spec.dependency 'ChameleonFramework/Swift'
 end
