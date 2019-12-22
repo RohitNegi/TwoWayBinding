@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA34A47F23AFB35400F10771 /* TwoWayBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = DA34A47D23AFB35400F10771 /* TwoWayBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA34A48D23AFB36600F10771 /* NSObject+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34A48623AFB36600F10771 /* NSObject+Observable.swift */; };
+		DA34A48E23AFB36600F10771 /* BlockBasedSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34A48723AFB36600F10771 /* BlockBasedSelector.swift */; };
+		DA34A48F23AFB36600F10771 /* UIControls+Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34A48823AFB36600F10771 /* UIControls+Bindable.swift */; };
+		DA34A49023AFB36600F10771 /* BlockBasedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = DA34A48923AFB36600F10771 /* BlockBasedSelector.m */; };
+		DA34A49123AFB36600F10771 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34A48A23AFB36600F10771 /* Bindable.swift */; };
+		DA34A49223AFB36600F10771 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34A48B23AFB36600F10771 /* Observable.swift */; };
+		DA34A49323AFB36600F10771 /* BlockBasedSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = DA34A48C23AFB36600F10771 /* BlockBasedSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA34A47A23AFB35400F10771 /* TwoWayBinding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TwoWayBinding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA34A47D23AFB35400F10771 /* TwoWayBinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoWayBinding.h; sourceTree = "<group>"; };
+		DA34A47E23AFB35400F10771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA34A48623AFB36600F10771 /* NSObject+Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Observable.swift"; sourceTree = "<group>"; };
+		DA34A48723AFB36600F10771 /* BlockBasedSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockBasedSelector.swift; sourceTree = "<group>"; };
+		DA34A48823AFB36600F10771 /* UIControls+Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControls+Bindable.swift"; sourceTree = "<group>"; };
+		DA34A48923AFB36600F10771 /* BlockBasedSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockBasedSelector.m; sourceTree = "<group>"; };
+		DA34A48A23AFB36600F10771 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		DA34A48B23AFB36600F10771 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		DA34A48C23AFB36600F10771 /* BlockBasedSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockBasedSelector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA34A47723AFB35400F10771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA34A47023AFB35400F10771 = {
+			isa = PBXGroup;
+			children = (
+				DA34A47C23AFB35400F10771 /* TwoWayBinding */,
+				DA34A47B23AFB35400F10771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA34A47B23AFB35400F10771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA34A47A23AFB35400F10771 /* TwoWayBinding.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA34A47C23AFB35400F10771 /* TwoWayBinding */ = {
+			isa = PBXGroup;
+			children = (
+				DA34A48523AFB36500F10771 /* Binding */,
+				DA34A47D23AFB35400F10771 /* TwoWayBinding.h */,
+				DA34A47E23AFB35400F10771 /* Info.plist */,
+			);
+			path = TwoWayBinding;
+			sourceTree = "<group>";
+		};
+		DA34A48523AFB36500F10771 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				DA34A48623AFB36600F10771 /* NSObject+Observable.swift */,
+				DA34A48723AFB36600F10771 /* BlockBasedSelector.swift */,
+				DA34A48823AFB36600F10771 /* UIControls+Bindable.swift */,
+				DA34A48923AFB36600F10771 /* BlockBasedSelector.m */,
+				DA34A48A23AFB36600F10771 /* Bindable.swift */,
+				DA34A48B23AFB36600F10771 /* Observable.swift */,
+				DA34A48C23AFB36600F10771 /* BlockBasedSelector.h */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA34A47523AFB35400F10771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA34A47F23AFB35400F10771 /* TwoWayBinding.h in Headers */,
+				DA34A49323AFB36600F10771 /* BlockBasedSelector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA34A47923AFB35400F10771 /* TwoWayBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA34A48223AFB35400F10771 /* Build configuration list for PBXNativeTarget "TwoWayBinding" */;
+			buildPhases = (
+				DA34A47523AFB35400F10771 /* Headers */,
+				DA34A47623AFB35400F10771 /* Sources */,
+				DA34A47723AFB35400F10771 /* Frameworks */,
+				DA34A47823AFB35400F10771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoWayBinding;
+			productName = TwoWayBinding;
+			productReference = DA34A47A23AFB35400F10771 /* TwoWayBinding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA34A47123AFB35400F10771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Rohit Negi";
+				TargetAttributes = {
+					DA34A47923AFB35400F10771 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DA34A47423AFB35400F10771 /* Build configuration list for PBXProject "TwoWayBinding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA34A47023AFB35400F10771;
+			productRefGroup = DA34A47B23AFB35400F10771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA34A47923AFB35400F10771 /* TwoWayBinding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA34A47823AFB35400F10771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA34A47623AFB35400F10771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA34A49123AFB36600F10771 /* Bindable.swift in Sources */,
+				DA34A48E23AFB36600F10771 /* BlockBasedSelector.swift in Sources */,
+				DA34A48D23AFB36600F10771 /* NSObject+Observable.swift in Sources */,
+				DA34A49023AFB36600F10771 /* BlockBasedSelector.m in Sources */,
+				DA34A49223AFB36600F10771 /* Observable.swift in Sources */,
+				DA34A48F23AFB36600F10771 /* UIControls+Bindable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA34A48023AFB35400F10771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA34A48123AFB35400F10771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA34A48323AFB35400F10771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TwoWayBinding/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.negi.TwoWayBinding;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA34A48423AFB35400F10771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TwoWayBinding/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rohit.negi.TwoWayBinding;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA34A47423AFB35400F10771 /* Build configuration list for PBXProject "TwoWayBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA34A48023AFB35400F10771 /* Debug */,
+				DA34A48123AFB35400F10771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA34A48223AFB35400F10771 /* Build configuration list for PBXNativeTarget "TwoWayBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA34A48323AFB35400F10771 /* Debug */,
+				DA34A48423AFB35400F10771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA34A47123AFB35400F10771 /* Project object */;
+}
