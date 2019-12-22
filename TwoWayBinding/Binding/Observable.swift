@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Observable<ObservedType>{
+public class Observable<ObservedType>{
     typealias Observer = (_ observable: Observable<ObservedType>, ObservedType)-> Void
     private var observers: [Observer]
     var value: ObservedType?{
